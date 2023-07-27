@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitesh Singh</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ba2611f461.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="navbar">
+            <a href="/"><img src="images/logo.png" alt="Nitesh Singh" class="logo"></a>
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+<div class="hero-section">
+    <div class="header-text">
+        <h1>Hi, My name is <span>Nitesh Singh</span></h1>
+        <h2>I'm <span>full-stack</span> developer</h2>
+    </div>
+</div>
+
+    <!-- about section -->
+
+<div id="about">
+
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="About Image">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-tittle">About Me</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, eligendi accusamus! Tempora ex consectetur quasi dolorem quaerat culpa illum asperiores laudantium fugiat. In quibusdam nulla optio ducimus voluptas odit sunt!0</p>
+                <div class="tab-tittles">
+                    <p class="tab-links active-link">Skills</p>
+                    <p class="tab-links" >Experience</p>
+                    <p class="tab-links" >Education</p>
+                </div>
+                <div class="tab-contents active-tab">
+                    <h3>Frontend</h3>
+                    <div class="contents">
+                        <div>
+                            <ul>
+                                <li>Html</li>
+                                <li>Css</li>
+                                <li>Javascript</li>
+                                <li>React</li>
+                            </ul>
+                        </div>
+                        <div class="content-img">
+                            <img src="images/html css javascript.png" alt="Html, Css, Javascript">
+                            <img src="images/react.png" alt="React">
+                        </div>
+                    </div>
+                    <h3>Backend</h3>
+                    <div class="contents">
+                        <div>
+                            <ul>
+                                <li>Nodejs</li>
+                                <li>Express Js</li>
+                                <li>MongoDb</li>
+                                <li>MySql</li>
+                            </ul>
+                        </div>
+                        <div class="content-img">
+                            <img src="images/nodejs.png" alt="Nodejs">
+                            <img src="images/express.png" alt="Express">
+                            <img src="images/mongodb.png" alt="MongoDb">
+                            <img src="images/mysql.png" alt="MySql">
+                        </div>
+                    </div>
+                    <h3>Data Structures & Algorithms</h3>
+                    <div class="contents">
+                        <div>
+                            <ul>
+                                <li>C++</li>
+                            </ul>
+                        </div>
+                        <div class="content-img">
+                            <img src="images/Cpp.png" alt="C++,cpp">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-contents">
+                    <p>Fresher</p>
+                </div>
+                <div class="tab-contents">
+                    <p>B.tech</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</div>
+    
+        <!-- ---------contact section--------- -->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-tittle">Contact Me</h1>
+                        <p><a href="mailto:niteshsingh.pp@gmail.com" ><i class="fa-sharp fa-solid fa-paper-plane contact-left-i"></i>Niteshsingh.pp@gmail.com</a></p>
+                        <p><a href="tel:+919911144230"><i class="fa-solid fa-phone contact-left-i"></i>+91 99 111 44 230</a></p>
+                        <div class="social-icon">
+                            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message"rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+<!-- ---------------footer----------- -->
+
+<footer class="copyright">
+    <p>&#169 2023 - Made with <i class="fa-solid fa-heart"></i> by <a href="/">Nitesh Singh</a></p>
+</footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>
